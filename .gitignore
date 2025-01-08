@@ -1,1 +1,9 @@
+# Ignore .env files
 *.env
+
+# Ignore pihole files
+pihole/config/
+pihole/dnsmasq.d/
+
+# Ignore Postgres data
+postgres/data/
