@@ -7,3 +7,6 @@ pihole/dnsmasq.d/
 
 # Ignore Postgres data
 postgres/data/
+
+# Ignore Portainer data
+portainer/data/
