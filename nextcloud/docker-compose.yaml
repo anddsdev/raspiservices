@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  nextcloud:
+    image: nextcloud:latest
+    container_name: nextcloud
+    restart: always
+    ports:
+      - "8080:80"
+    volumes:
+      - /home/vannak/docker/nextcloud/data:/var/www/html
+    env_file:
+      - .env
+    networks:
+      - postgres-network
+
+networks:
+  postgres-network:
+    external: true
