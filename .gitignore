@@ -10,3 +10,6 @@ postgres/data/
 
 # Ignore Portainer data
 portainer/data/
+
+# Ignore Nextcloud data
+nextcloud/data/

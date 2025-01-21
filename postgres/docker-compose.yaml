@@ -10,3 +10,9 @@ services:
     volumes:
       - /home/vannak/docker/postgres/data:/var/lib/postgresql/data
     restart: unless-stopped
+    networks:
+      - postgres-network
+
+networks:
+  postgres-network:
+    external: true
