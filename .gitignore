@@ -16,3 +16,10 @@ nextcloud/data/
 
 # Ignore uptime-kuma data
 uptime-kuma/data/
+
+# Ignore crafty data
+crafty/data/
+crafty/logs/
+crafty/servers/
+crafty/config/
+crafty/import/
