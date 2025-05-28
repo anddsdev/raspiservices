@@ -13,3 +13,6 @@ portainer/data/
 
 # Ignore Nextcloud data
 nextcloud/data/
+
+# Ignore uptime-kuma data
+uptime-kuma/data/
