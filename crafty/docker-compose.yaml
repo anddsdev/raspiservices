@@ -18,3 +18,4 @@ services:
         - /home/vannak/docker/crafty/servers:/crafty/servers
         - /home/vannak/docker/crafty/config:/crafty/app/config
         - /home/vannak/docker/crafty/import:/crafty/import
+        - /home/vannak/docker/crafty/backup:/crafty/backups
